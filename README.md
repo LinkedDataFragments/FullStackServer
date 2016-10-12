@@ -1,5 +1,5 @@
 # LDF Server Deployment
-Example files for a default LDF deployment, with an LDF server, NGINX cache and LDF web client using [Docker Compose](https://docs.docker.com/compose/).
+Example files for a default LDF deployment, with an [LDF server](https://github.com/LinkedDataFragments/Server.js), [NGINX cache](https://www.nginx.com/) and [LDF web client](https://github.com/LinkedDataFragments/jQuery-Widget.js) using [Docker Compose](https://docs.docker.com/compose/).
 
 ## Configuration
 The required configuration for deploying an LDF server is minimal.

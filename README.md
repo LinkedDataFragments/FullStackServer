@@ -1,7 +1,17 @@
 # LDF Server Deployment
 Example files for a default LDF deployment, with an [LDF server](https://github.com/LinkedDataFragments/Server.js), [NGINX cache](https://www.nginx.com/) and [LDF web client](https://github.com/LinkedDataFragments/jQuery-Widget.js) using [Docker Compose](https://docs.docker.com/compose/).
 
-## Configuration
+## Run
+To start the LDF server, cache and web client, simply run the following command:
+
+```bash
+docker-compose up
+```
+Adding the `-d` parameter will run it as a daemon.
+
+The server will now be running on the default HTTP port, and the web client will be running on port 8080.
+
+## Configure
 The required configuration for deploying an LDF server is minimal.
 
 ### Server config
@@ -25,13 +35,3 @@ The default `config-server.json` expects a `dbpedia2014.hdt` dataset file to be 
 
 `LDF_WORKERS` specifies the number of workers the LDF server should have, this will typically be the same as the number of cores of your machine.
 The `worker_processes` value in `nginx.conf` should in most cases have the same value.
-
-## Running
-To start the LDF server, cache and web client, simply run the following command:
-
-```bash
-docker-compose up
-```
-Adding the `-d` parameter will run it as a daemon.
-
-The server will now be running on the default HTTP port, and the web client will be running on port 8080.

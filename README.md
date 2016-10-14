@@ -1,5 +1,5 @@
-# LDF Server Deployment
-Example files for a default LDF deployment, with an [LDF server](https://github.com/LinkedDataFragments/Server.js), [NGINX cache](https://www.nginx.com/) and [LDF web client](https://github.com/LinkedDataFragments/jQuery-Widget.js) using [Docker Compose](https://docs.docker.com/compose/).
+# Full Stack Linked Data Fragments Server
+Example files for a complete default LDF deployment, with an [LDF server](https://github.com/LinkedDataFragments/Server.js), [NGINX cache](https://www.nginx.com/) and [LDF web client](https://github.com/LinkedDataFragments/jQuery-Widget.js) using [Docker Compose](https://docs.docker.com/compose/).
 
 ## Run
 To start the LDF server, cache and web client, simply run the following command:
